@@ -81,7 +81,7 @@ script: gulp test
 
  * you should be able to run your tests from the command line by typing ```gulp test```, if this doesn't work something is wrong.
  * commit your code to github
- * Register and Login to http://travis.ci
+ * Register and Login at https://travis-ci.org/
  * it should find your all your github projects
  * switch the project you would like to test on
  * see the the build passes
