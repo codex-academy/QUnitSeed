@@ -2,11 +2,15 @@
 
 ## Intro
 
-This is a basic QUnit Seed to help one to get going with QUnit
+This is an introduction using QUnit with Gulp, it also helps you setting up a Travis (http://travis-ci.org) instance. Travis is an cloud CI Server that monitors your github repository for changes and then run some configured tasks. We will set it up to run your unit tests. 
 
 It contains one Javascript Object in ```utility.js``` and a tests for it in ```utility_test.js```
 
 To run the tests open the ```test-setup.html``` file in a browser.
+
+Once done with this tutorial you should be able to run your tests using this command:
+
+```gulp test```
 
 ##Run tests from the terminal
 
@@ -45,8 +49,8 @@ To setup travis we need to do a few things:
 * install the ```gulp``` and ```gulp-qunit``` modules using ```npm``` 
   * in a terminal in your project folder
   * type ```sudo npm install -g gulp```
-  * type ```npm install -s gulp```
-  * type ```npm install -s gulp-qunit```
+  * type ```npm install --save gulp```
+  * type ```npm install --save gulp-qunit```
 * exclude the ```./node_modules``` folder from github using the ```.gitignore``` file
   * in your project folder root create a .gitignore file using ```touch .gitignore```
   * open the file and put ```node_modules/``` in it
@@ -87,15 +91,4 @@ script: gulp test
  * see the the build passes
 
 
-If you still have problems refers back to the setup in this project, ask a fellow coder or your Mentor! 
- 
-
-
-
-
-
-
-
-
-
-
+If you still have problems refers back to the setup in this project, ask a fellow coder or a Code Mentor.
